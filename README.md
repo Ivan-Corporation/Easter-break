@@ -13,12 +13,12 @@
 
 # Examples
 
-
-## Komotedly - NextJS
+## Video
 
 https://user-images.githubusercontent.com/58357980/172224333-ab09a58b-5e78-4b68-90cc-16bdb07318a1.mp4
 
 
+## Komotedly - NextJS
 ### Check here (button on the opened left menu): https://komotedly.netlify.app/
 ![image](https://user-images.githubusercontent.com/58357980/172209922-ab5ee04a-dc53-4be7-ba91-20c245a4b198.png)
 
