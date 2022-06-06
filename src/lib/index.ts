@@ -4,7 +4,7 @@ import * as utils from "./utils";
 
 let canvas = document.createElement("canvas");
 canvas.style.width = "100vw";
-canvas.style.height = "100vh";
+canvas.style.height = "110vh";
 
 canvas.style.position = "fixed";
 canvas.style.zIndex = "100000000000";
