@@ -7,6 +7,8 @@
 
 # Easter break
 
+## File size:
+![image](https://user-images.githubusercontent.com/58357980/172183315-6911dd87-c325-4e7d-b153-1c35ebbb2e86.png)
 
 
 
