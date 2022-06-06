@@ -6,32 +6,21 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/easter-break)
 
 # Easter break
+### Ideal package for some easter egg in your site. He just give you ``onClick function`` with canvas destroying current page
 
-## File size:
-![image](https://user-images.githubusercontent.com/58357980/172183315-6911dd87-c325-4e7d-b153-1c35ebbb2e86.png)
-
-### If you have CRA 5.0.0 and above and get some garbage in terminal try this script:
+<br/>
 
 
-> "start": "GENERATE_SOURCEMAP=false react-scripts start",
-<hr/>
 
-### If after cliked on button you see:
-> You need to enable JavaScript to run this app.
-In the left-up corner
-
-Just delete text from your ``index.html`` here:
-```html
-<noscript>You need to enable JavaScript to run this app.</noscript>
-```
-`Note: 
-it's only for some kind of boilerplate`
 
 # Examples
 
 
-### Komotedly
+## Komotedly - NextJS
+
+### Check here (button on the opened left menu): https://komotedly.netlify.app/
 ![image](https://user-images.githubusercontent.com/58357980/172209922-ab5ee04a-dc53-4be7-ba91-20c245a4b198.png)
+
 
 
 # Installation
@@ -103,3 +92,23 @@ document.getElementById("dangerous-button")
 </body>
 </html>
 ```
+
+## File size:
+![image](https://user-images.githubusercontent.com/58357980/172183315-6911dd87-c325-4e7d-b153-1c35ebbb2e86.png)
+
+### If you have CRA 5.0.0 and above and get some garbage in terminal try this script:
+
+
+> "start": "GENERATE_SOURCEMAP=false react-scripts start",
+<hr/>
+
+### If after cliked on button you see:
+> You need to enable JavaScript to run this app.
+In the left-up corner
+
+Just delete text from your ``index.html`` here:
+```html
+<noscript>You need to enable JavaScript to run this app.</noscript>
+```
+`Note: 
+it's only for some kind of boilerplate`
