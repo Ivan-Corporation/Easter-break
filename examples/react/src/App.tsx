@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import breakWebPage from "easter-break";
+import easterBreaker from "easter-break";
+
+
 
 function App() {
 
@@ -11,8 +13,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Break this page by click on button
         </p>
+        <button onClick={easterBreaker}>Break me </button>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -23,11 +26,8 @@ function App() {
         </a>
       </header>
 
-      <button onClick={breakWebPage}>Break me </button>
-      <h1>
-        One really big header
-      </h1>
-
+  
+    
     </div>
   );
 }

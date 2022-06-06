@@ -21,7 +21,7 @@ const createStackEngine = (width, height) => {
     engine.gravity.y = 0.05;
     let world = engine.world;
     let WALL_THICKNESS = 50;
-    let UNIT_SIZE = 20;
+    let UNIT_SIZE = 40;
     let columns = Math.ceil(width / UNIT_SIZE);
     let rows = Math.ceil(height / UNIT_SIZE);
     var stack = matter_js_1.Composites.stack(0, 0, columns, rows, 0, 0, (x, y) => {

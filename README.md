@@ -57,9 +57,9 @@ yarn install easter-break
 
 ```js
 // JS file
-import breakWebPage from "website-breaker";
+import easterBreaker from "website-breaker";
 document.getElementById("dangerous-button")
-        .addEventListener("click", () => breakWebPage());
+        .addEventListener("click", () => easterBreaker());
 ```
 
 

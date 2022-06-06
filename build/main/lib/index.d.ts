@@ -1,2 +1,2 @@
-export declare const breakWebPage: () => Promise<void>;
-export default breakWebPage;
+export declare const easterBreaker: () => Promise<void>;
+export default easterBreaker;

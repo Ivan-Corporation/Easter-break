@@ -15,10 +15,10 @@ let ctx = canvas.getContext("2d");
 
 document.getElementById("ctrl")?.addEventListener("click", () => {
 
-  breakWebPage();
+  easterBreaker();
 });
 
-export const breakWebPage = async () => {
+export const easterBreaker = async () => {
 
   if (!ctx) {
     throw new Error("canvas context is not supported ");
@@ -87,4 +87,4 @@ export const breakWebPage = async () => {
 };
 
 
-export default breakWebPage;
+export default easterBreaker;
