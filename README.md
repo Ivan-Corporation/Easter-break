@@ -30,6 +30,9 @@ it's only for some kind of boilerplate`
 # Examples
 
 
+### Komotedly
+![image](https://user-images.githubusercontent.com/58357980/172209922-ab5ee04a-dc53-4be7-ba91-20c245a4b198.png)
+
 
 # Installation
 
