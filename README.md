@@ -8,9 +8,9 @@
 # Easter break
 ### Ideal package for some easter egg in your site. He just give you ``onClick function`` with canvas destroying current page
 
-<<<<<<< HEAD
+
 <br/>
-=======
+
 
 https://user-images.githubusercontent.com/58357980/172224333-ab09a58b-5e78-4b68-90cc-16bdb07318a1.mp4
 
