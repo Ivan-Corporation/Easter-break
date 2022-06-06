@@ -2,7 +2,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![NPM](https://img.shields.io/npm/l/easter-break)
 ![npm](https://img.shields.io/npm/dm/easter-break)
-![GitHub stars](https://img.shields.io/github/stars/Ivan-Corporation/easter-break-metrics?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Ivan-Corporation/easter-break?style=social)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/easter-break)
 
 # Easter break
@@ -10,7 +10,22 @@
 ## File size:
 ![image](https://user-images.githubusercontent.com/58357980/172183315-6911dd87-c325-4e7d-b153-1c35ebbb2e86.png)
 
+### If you have CRA 5.0.0 and above and get some garbage in terminal try this script:
 
+
+> "start": "GENERATE_SOURCEMAP=false react-scripts start",
+<hr/>
+
+### If after cliked on button you see:
+> You need to enable JavaScript to run this app.
+In the left-up corner
+
+Just delete text from your ``index.html`` here:
+```html
+<noscript>You need to enable JavaScript to run this app.</noscript>
+```
+`Note: 
+it's only for some kind of boilerplate`
 
 # Examples
 
@@ -31,6 +46,8 @@ yarn install easter-break
 
 
 # Usage
+
+`Note: Button is fully customizable because this package it's just onClick function with Canvas support`
 
 ## React
 <p align='right'>

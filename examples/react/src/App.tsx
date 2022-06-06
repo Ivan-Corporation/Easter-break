@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import easterBreaker from "easter-break";
-
-
+import EasterBreaker from './EasterBreaker'
+import { RepositoryMetrics } from 'repository-metrics';
+import logo from './profile.png'
 
 function App() {
 
@@ -11,19 +10,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} alt="logo" />
         <p>
-          Break this page by click on button
+          Break this page! but be careful...
         </p>
-        <button onClick={easterBreaker}>Break me </button>
+        <EasterBreaker/>
+        <br/>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Ivan-Corporation/Easter-break"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
         </a>
+
+<hr/>
+        <RepositoryMetrics 
+      owner='Ivan-Corporation' 
+      repo='Easter-break' 
+      theme='dark' 
+      />
       </header>
 
   
