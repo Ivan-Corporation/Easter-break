@@ -13,7 +13,6 @@
 
 # Examples
 
-## Video
 
 https://user-images.githubusercontent.com/58357980/172224333-ab09a58b-5e78-4b68-90cc-16bdb07318a1.mp4
 
@@ -22,14 +21,6 @@ https://user-images.githubusercontent.com/58357980/172224333-ab09a58b-5e78-4b68-
 ### Check here (button on the opened left menu): https://komotedly.netlify.app/
 ![image](https://user-images.githubusercontent.com/58357980/172209922-ab5ee04a-dc53-4be7-ba91-20c245a4b198.png)
 
-
-
-
-
-
-
-## File size:
-![image](https://user-images.githubusercontent.com/58357980/172183315-6911dd87-c325-4e7d-b153-1c35ebbb2e86.png)
 
 
 
@@ -59,8 +50,33 @@ yarn install easter-break
 </p>
 
 ```ts
+//  EasterBreaker.tsx
+import easterBreaker from "easter-break";
 
+ const EasterBraker = () => {
+    return (
+        <button onClick={easterBreaker}>Break me </button>
+
+    );
+  };
+  export default EasterBraker
 ```
+
+``` ts
+// App.tsx
+import EasterBreaker from './EasterBreaker'
+
+function App() {
+
+  return (
+    <div className="App">
+        ...
+        <EasterBreaker/>
+        ...
+    </div>
+```
+
+Full example - https://github.com/Ivan-Corporation/Easter-break/tree/master/examples/react
 
 ## Vue 3
 <p align='right'>
@@ -80,7 +96,7 @@ yarn install easter-break
 
 ```js
 // JS file
-import easterBreaker from "website-breaker";
+import easterBreaker from "easter-break";
 document.getElementById("dangerous-button")
         .addEventListener("click", () => easterBreaker());
 ```
