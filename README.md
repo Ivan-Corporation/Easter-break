@@ -28,6 +28,7 @@ https://user-images.githubusercontent.com/58357980/172224333-ab09a58b-5e78-4b68-
 
 ## Codesandbox
 <img src='./1.png'/>
+
 ### Or check codesandbox - https://codesandbox.io/s/easter-break-y8o6t4?file=/src/App.tsx
 
 # Installation
