@@ -79,6 +79,7 @@ function App() {
 ```
 
 Full example - https://github.com/Ivan-Corporation/Easter-break/tree/master/examples/react
+<hr/>
 
 ## Vue 3
 <p align='right'>
@@ -86,8 +87,47 @@ Full example - https://github.com/Ivan-Corporation/Easter-break/tree/master/exam
  </p>
 
 ```vue
+// EasterBreaker.vue
+<template>
+   <div class="button" @click="destroy" >
+     Break me
+   </div>
+</template>
 
+<script >
+import easterBreaker from 'easter-break'
+
+
+export default {
+  name: 'easter-breaker',
+   methods: {
+    destroy(){
+      easterBreaker();
+    }
+}
+}
+
+</script>
 ```
+
+``` vue 
+// HelloWorld.vue
+<template>
+  ...
+    <button>
+      <easter-breaker/>
+    </button>
+    ...
+</template>
+
+<script>
+import EasterBreaker from './EasterBreaker.vue'
+    ...
+</script>
+```
+Full example - https://github.com/Ivan-Corporation/Easter-break/tree/master/examples/vue
+<hr/>
+
 
 ## Native JavaScript
 
