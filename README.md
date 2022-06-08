@@ -41,7 +41,7 @@ npm i easter-break
 or
 
 ```bash
-yarn install easter-break
+yarn add easter-break
 ```
 
 
