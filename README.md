@@ -3,7 +3,6 @@
 ![NPM](https://img.shields.io/npm/l/easter-break)
 ![npm](https://img.shields.io/npm/dm/easter-break)
 ![GitHub stars](https://img.shields.io/github/stars/Ivan-Corporation/easter-break?style=social)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/easter-break)
 
 # Easter break
 ### Ideal package for some easter egg in your site. He just give you ``onClick function`` with canvas destroying current page
