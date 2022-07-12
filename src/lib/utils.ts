@@ -18,7 +18,7 @@ export const createStackEngine = (width: number, height: number) => {
   let world = engine.world;
 
   let WALL_THICKNESS = 50;
-  let UNIT_SIZE = 40;
+  let UNIT_SIZE = 35;
 
   let columns = Math.ceil(width / UNIT_SIZE);
   let rows = Math.ceil(height / UNIT_SIZE);
