@@ -1,6 +1,6 @@
 import { Composite, Mouse, MouseConstraint, Runner } from "matter-js";
 import Renderer from "./Renderer";
-import * as utils from "./utils";
+import * as utils from "../utils/utils";
 
 let canvas = document.createElement("canvas");
 canvas.style.width = "100vw";
@@ -14,7 +14,6 @@ canvas.style.right = "0";
 let ctx = canvas.getContext("2d");
 
 document.getElementById("ctrl")?.addEventListener("click", () => {
-
   easterBreaker();
 });
 

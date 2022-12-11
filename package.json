@@ -1,7 +1,7 @@
 {
   "name": "easter-break",
-  "version": "1.5.1",
-  "description": "Ideal package for some easter egg in your site. He just give you onClick function with canvas destroying current page",
+  "version": "1.5.2",
+  "description": "Ideal package for some easter egg in your site. This just give you onClick function with canvas destroying current page",
   "main": "build/main/lib/index.js",
   "scripts": {
     "build:bundle": "webpack --config webpack.config.js --mode production",

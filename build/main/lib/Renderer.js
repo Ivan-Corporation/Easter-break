@@ -1,5 +1,4 @@
 "use strict";
-// import Matter, { Composite } from "matter-js";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Renderer {
     constructor(config) {

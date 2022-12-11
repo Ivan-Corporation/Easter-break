@@ -4,8 +4,8 @@
 ![npm](https://img.shields.io/npm/dm/easter-break)
 ![GitHub stars](https://img.shields.io/github/stars/Ivan-Corporation/easter-break?style=social)
 
-# Easter break
-### Ideal package for some easter egg in your site. He just give you ``onClick function`` with canvas destroying current page
+# Easter break <img src='./egg_logo.png' width='30'/>
+### Ideal package for some easter egg in your site. This package just give you ``onClick function`` with canvas destroying current page
 
 
 <br/>
