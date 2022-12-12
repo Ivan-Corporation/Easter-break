@@ -41,7 +41,7 @@
     "@babel/preset-typescript": "^7.3.3",
     "@types/chrome": "0.0.184",
     "@types/jasmine": "4.3.1",
-    "@types/matter-js": "^0.17.7",
+    "@types/matter-js": "^0.18.2",
     "@types/node": "^17.0.23",
     "awesome-typescript-loader": "^5.2.1",
     "jasmine-core": "3.1.0",
