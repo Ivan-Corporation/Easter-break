@@ -38,7 +38,7 @@
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
     "@babel/preset-env": "^7.4.1",
-    "@babel/preset-typescript": "^7.3.3",
+    "@babel/preset-typescript": "^7.21.0",
     "@types/chrome": "0.0.184",
     "@types/jasmine": "4.3.1",
     "@types/matter-js": "^0.17.7",
